@@ -3,10 +3,10 @@
   (general
     (links 46)
     (no_connects 0)
-    (area 79.252381 44.275 130.825 104.275001)
+    (area 79.924999 44.924999 130.075001 95.075001)
     (thickness 1.6)
     (drawings 8)
-    (tracks 192)
+    (tracks 194)
     (zones 0)
     (modules 21)
     (nets 10)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 1)
     (user_trace_width 0.6)
     (user_trace_width 0.7)
     (user_trace_width 1)
@@ -921,7 +921,7 @@
   )
 
   (gr_text f6itu (at 84 84 90) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3) italic))
+    (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
   )
   (gr_text "GND\n" (at 126 73.5 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
@@ -942,6 +942,8 @@
   (segment (start 114.065 60.935) (end 114 61) (width 1.5) (layer B.Cu) (net 1) (tstamp 5A4252AB))
   (segment (start 109.29 60.7) (end 113.7 60.7) (width 1.5) (layer B.Cu) (net 1))
   (segment (start 113.7 60.7) (end 114 61) (width 1.5) (layer B.Cu) (net 1) (tstamp 5A424448))
+  (segment (start 97.46 92.54) (end 97.46 87.46) (width 1) (layer B.Cu) (net 2))
+  (segment (start 102.54 92.54) (end 102.54 87.46) (width 1) (layer B.Cu) (net 2))
   (segment (start 97.46 87.46) (end 97.46 92.54) (width 1) (layer F.Cu) (net 2))
   (segment (start 102.54 87.46) (end 102.54 92.54) (width 1) (layer F.Cu) (net 2))
   (segment (start 106.99 53.3) (end 106.2 53.3) (width 0.25) (layer B.Cu) (net 2))

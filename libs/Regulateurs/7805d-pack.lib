@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 7805D-Pack
+#
+DEF 7805D-Pack U 0 30 Y Y 1 F N
+F0 "U" 150 -196 50 H V C CNN
+F1 "7805D-Pack" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS MC7805
+DRAW
+S -200 -150 200 150 0 1 0 N
+X In 1 -300 50 98 R 20 20 1 1 I
+X GND 2 0 -250 100 U 20 20 1 1 I
+X Out 3 300 50 98 L 20 20 1 1 w
+X Tab 4 0 250 94 D 20 20 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

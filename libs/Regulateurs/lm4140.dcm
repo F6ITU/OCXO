@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4140
+D low noise voltage regulator
+K low noise regulator
+F Datasheet/lm4140.pdf
+$ENDCMP
+#
+#End Doc Library

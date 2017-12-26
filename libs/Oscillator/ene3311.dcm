@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ENE3311
+D OCXO
+K OCXO Oscillator
+$ENDCMP
+#
+#End Doc Library
