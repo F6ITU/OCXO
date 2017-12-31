@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Marco/Documents/Kicad/Projets/OCXO/ocxo.sch</source>
+    <date>31/12/2017 15:12:04</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ocxo.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>KA78M05_TO252</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="regul" part="KA78M05_TO252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B59D5</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>ENE3311 OCXO</value>
+      <footprint>ENE3311:ENE3311</footprint>
+      <libsource lib="ene3311" part="ENE3311"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5BA5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM4140</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="lm4140" part="LM4140"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5C08</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5D01</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5D26</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5D91</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B62ED</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6431</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Vishay_43</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6442</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B664E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6837</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <footprint>SMA_PINS:SMA_PINS</footprint>
+      <libsource lib="conn" part="Conn_Coaxial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6BE9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6CF6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SMB_Handsoldering</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B6D3B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4114C5</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_Coaxial</value>
+      <footprint>SMA_PINS:SMA_EDGE_NRW</footprint>
+      <libsource lib="conn" part="Conn_Coaxial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A41238F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A41248C</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A412515</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A412522</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3299Y</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A425F65</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3299W</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A426460</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ene3311" part="ENE3311">
+      <description>OCXO</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">ENE3311</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Out" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+        <pin num="3" name="Vref" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm4140" part="LM4140">
+      <description>low noise voltage regulator</description>
+      <docs>Datasheet/lm4140.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4140</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Gnd" type="input"/>
+        <pin num="2" name="Vin" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="NC" type="input"/>
+        <pin num="6" name="Vref" type="input"/>
+        <pin num="7" name="Gnd" type="input"/>
+        <pin num="8" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM78M05_TO252">
+      <aliases>
+        <alias>MC78M05_TO252</alias>
+        <alias>KA78M05_TO252</alias>
+        <alias>LF15_TO252</alias>
+        <alias>LF18_TO252</alias>
+        <alias>LF25_TO252</alias>
+        <alias>LF33_TO252</alias>
+        <alias>LF50_TO252</alias>
+        <alias>LF60_TO252</alias>
+        <alias>LF80_TO252</alias>
+        <alias>LF85_TO252</alias>
+        <alias>LF120_TO252</alias>
+        <alias>LP2950-3.0_TO252</alias>
+        <alias>LP2950-3.3_TO252</alias>
+        <alias>LP2950-5.0_TO252</alias>
+        <alias>LF47_TO252</alias>
+        <alias>LF90_TO252</alias>
+      </aliases>
+      <description>Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78M05.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM78M05_TO252</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT_TRIM">
+      <description>Trim-Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="lm4140">
+      <uri>C:\Users\Marco\Documents\Kicad\libraries\Regulateurs\lm4140.lib</uri>
+    </library>
+    <library logical="ene3311">
+      <uri>C:\Users\Marco\Documents\Kicad\libraries\Oscillator\ene3311.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad1)">
+      <node ref="RV3" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="Q1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+  </nets>
+</export>
