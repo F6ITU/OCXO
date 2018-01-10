@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 614)
+    (links 526)
     (no_connects 0)
-    (area 79.157143 44.275 130.842858 104.275001)
+    (area 79.924999 44.924999 130.075001 95.075001)
     (thickness 1.6)
     (drawings 9)
-    (tracks 183)
+    (tracks 182)
     (zones 0)
-    (modules 658)
+    (modules 501)
     (nets 10)
   )
 
@@ -2595,58 +2595,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C58)
-    (at 127 85)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C54)
-    (at 126 85)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C50)
-    (at 125 85)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C4C)
-    (at 124 85)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C48)
     (at 123 85)
     (tags "via stitching")
@@ -2675,58 +2623,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C40)
     (at 128 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C3C)
-    (at 127 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C38)
-    (at 126 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C34)
-    (at 125 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C30)
-    (at 124 84)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2777,58 +2673,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C20)
-    (at 127 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C1C)
-    (at 126 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C18)
-    (at 125 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C14)
-    (at 124 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C10)
     (at 123 83)
     (tags "via stitching")
@@ -2857,58 +2701,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C08)
     (at 128 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C04)
-    (at 127 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8C00)
-    (at 126 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BFC)
-    (at 125 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BF8)
-    (at 124 82)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2959,58 +2751,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BE8)
-    (at 127 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BE4)
-    (at 126 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BE0)
-    (at 125 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BDC)
-    (at 124 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BD8)
     (at 123 81)
     (tags "via stitching")
@@ -3039,58 +2779,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BD0)
     (at 128 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BCC)
-    (at 127 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BC8)
-    (at 126 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BC4)
-    (at 125 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BC0)
-    (at 124 80)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3141,58 +2829,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BB0)
-    (at 127 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BAC)
-    (at 126 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BA8)
-    (at 125 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BA4)
-    (at 124 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8BA0)
     (at 123 79)
     (tags "via stitching")
@@ -3221,58 +2857,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B98)
     (at 128 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B94)
-    (at 127 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B90)
-    (at 126 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B8C)
-    (at 125 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B88)
-    (at 124 78)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3323,58 +2907,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B78)
-    (at 127 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B74)
-    (at 126 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B70)
-    (at 125 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B6C)
-    (at 124 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B68)
     (at 123 77)
     (tags "via stitching")
@@ -3403,58 +2935,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B60)
     (at 128 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B5C)
-    (at 127 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B58)
-    (at 126 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B54)
-    (at 125 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F7429) (tstamp 5A4F8B50)
-    (at 124 76)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3895,58 +3375,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F87B0)
-    (at 93 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F87AC)
-    (at 92 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F87A8)
-    (at 91 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F87A4)
-    (at 90 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F87A0)
     (at 89 92)
     (tags "via stitching")
@@ -3999,58 +3427,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8790)
-    (at 93 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F878C)
-    (at 92 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8788)
-    (at 91 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8784)
-    (at 90 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8780)
     (at 89 91)
     (tags "via stitching")
@@ -4092,58 +3468,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8774)
     (at 94 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8770)
-    (at 93 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F876C)
-    (at 92 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8768)
-    (at 91 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F73B0) (tstamp 5A4F8764)
-    (at 90 90)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4584,45 +3908,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8563)
-    (at 109 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F855F)
-    (at 108 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F855B)
-    (at 107 92)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8557)
     (at 106 92)
     (tags "via stitching")
@@ -4664,45 +3949,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F854B)
     (at 110 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8547)
-    (at 109 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8543)
-    (at 108 91)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F853F)
-    (at 107 91)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4766,45 +4012,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F852B)
-    (at 109 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8527)
-    (at 108 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8523)
-    (at 107 90)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F851F)
     (at 106 90)
     (tags "via stitching")
@@ -4857,45 +4064,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F850F)
-    (at 109 89)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F850B)
-    (at 108 89)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8507)
-    (at 107 89)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F8503)
     (at 106 89)
     (tags "via stitching")
@@ -4937,45 +4105,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F84F7)
     (at 110 88)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F84F3)
-    (at 109 88)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F84EF)
-    (at 108 88)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F732F) (tstamp 5A4F84EB)
-    (at 107 88)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5481,45 +4610,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8313)
-    (at 85 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F830F)
-    (at 84 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F830B)
-    (at 83 84)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8307)
     (at 82 84)
     (tags "via stitching")
@@ -5561,45 +4651,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82E7)
     (at 86 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82E3)
-    (at 85 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82DF)
-    (at 84 83)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82DB)
-    (at 83 83)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5663,45 +4714,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82B3)
-    (at 85 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82AF)
-    (at 84 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82AB)
-    (at 83 82)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F82A7)
     (at 82 82)
     (tags "via stitching")
@@ -5743,45 +4755,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8287)
     (at 86 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8283)
-    (at 85 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F827F)
-    (at 84 81)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F827B)
-    (at 83 81)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5845,45 +4818,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8253)
-    (at 85 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F824F)
-    (at 84 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F824B)
-    (at 83 80)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8247)
     (at 82 80)
     (tags "via stitching")
@@ -5925,45 +4859,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8227)
     (at 86 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8223)
-    (at 85 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F821F)
-    (at 84 79)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F821B)
-    (at 83 79)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6027,45 +4922,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81F3)
-    (at 85 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81EF)
-    (at 84 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81EB)
-    (at 83 78)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81E7)
     (at 82 78)
     (tags "via stitching")
@@ -6107,45 +4963,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81C7)
     (at 86 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81C3)
-    (at 85 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81BF)
-    (at 84 77)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F81BB)
-    (at 83 77)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6209,45 +5026,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8193)
-    (at 85 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F818F)
-    (at 84 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F818B)
-    (at 83 76)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8187)
     (at 82 76)
     (tags "via stitching")
@@ -6289,45 +5067,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8167)
     (at 86 75)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8163)
-    (at 85 75)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F815F)
-    (at 84 75)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F815B)
-    (at 83 75)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6391,45 +5130,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8133)
-    (at 85 74)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F812F)
-    (at 84 74)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F812B)
-    (at 83 74)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8127)
     (at 82 74)
     (tags "via stitching")
@@ -6471,45 +5171,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8107)
     (at 86 73)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8103)
-    (at 85 73)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80FF)
-    (at 84 73)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80FB)
-    (at 83 73)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6573,45 +5234,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80D3)
-    (at 85 72)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80CF)
-    (at 84 72)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80CB)
-    (at 83 72)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80C7)
     (at 82 72)
     (tags "via stitching")
@@ -6653,45 +5275,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80A7)
     (at 86 71)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F80A3)
-    (at 85 71)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F809F)
-    (at 84 71)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F809B)
-    (at 83 71)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6755,45 +5338,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8073)
-    (at 85 70)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F806F)
-    (at 84 70)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F806B)
-    (at 83 70)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8067)
     (at 82 70)
     (tags "via stitching")
@@ -6835,45 +5379,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8047)
     (at 86 69)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8043)
-    (at 85 69)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F803F)
-    (at 84 69)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F803B)
-    (at 83 69)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6937,45 +5442,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8013)
-    (at 85 68)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F800F)
-    (at 84 68)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F800B)
-    (at 83 68)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F8007)
     (at 82 68)
     (tags "via stitching")
@@ -7017,45 +5483,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FE7)
     (at 86 67)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FE3)
-    (at 85 67)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FDF)
-    (at 84 67)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FDB)
-    (at 83 67)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7119,45 +5546,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FB3)
-    (at 85 66)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FAF)
-    (at 84 66)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FAB)
-    (at 83 66)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7FA7)
     (at 82 66)
     (tags "via stitching")
@@ -7199,45 +5587,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F87)
     (at 86 65)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F83)
-    (at 85 65)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F7F)
-    (at 84 65)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F7B)
-    (at 83 65)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7301,45 +5650,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F53)
-    (at 85 64)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F4F)
-    (at 84 64)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F4B)
-    (at 83 64)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F47)
     (at 82 64)
     (tags "via stitching")
@@ -7381,45 +5691,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F27)
     (at 86 63)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F23)
-    (at 85 63)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F1F)
-    (at 84 63)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7F1B)
-    (at 83 63)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7483,45 +5754,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EF3)
-    (at 85 62)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EEF)
-    (at 84 62)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EEB)
-    (at 83 62)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EE7)
     (at 82 62)
     (tags "via stitching")
@@ -7563,45 +5795,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EC7)
     (at 86 61)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EC3)
-    (at 85 61)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EBF)
-    (at 84 61)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7EBB)
-    (at 83 61)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7665,45 +5858,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E93)
-    (at 85 60)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E8F)
-    (at 84 60)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E8B)
-    (at 83 60)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E87)
     (at 82 60)
     (tags "via stitching")
@@ -7745,45 +5899,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E67)
     (at 86 59)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E63)
-    (at 85 59)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E5F)
-    (at 84 59)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E5B)
-    (at 83 59)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7847,45 +5962,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E33)
-    (at 85 58)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E2F)
-    (at 84 58)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E2B)
-    (at 83 58)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E27)
     (at 82 58)
     (tags "via stitching")
@@ -7927,45 +6003,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E07)
     (at 86 57)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7E03)
-    (at 85 57)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DFF)
-    (at 84 57)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DFB)
-    (at 83 57)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8029,45 +6066,6 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DD3)
-    (at 85 56)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DCF)
-    (at 84 56)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DCB)
-    (at 83 56)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DC7)
     (at 82 56)
     (tags "via stitching")
@@ -8109,45 +6107,6 @@
 
   (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DA7)
     (at 86 55)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7DA3)
-    (at 85 55)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7D9F)
-    (at 84 55)
-    (tags "via stitching")
-    (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value via (at 0 1) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
-  (module via:via (layer F.Cu) (tedit 5A4F71FB) (tstamp 5A4F7D9B)
-    (at 83 55)
     (tags "via stitching")
     (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9216,11 +7175,11 @@
       (net 2 GND) (zone_connect 2))
   )
 
+  (gr_text f6itu (at 108 90 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25) italic) (justify mirror))
+  )
   (gr_text Αἰών (at 107.5 77.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text f6itu (at 98 78 90) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
   )
   (gr_text "GND\n" (at 126 73.5 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
@@ -9363,7 +7322,6 @@
   (segment (start 126 49) (end 124 49) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 126 91) (end 126 89) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 84 49) (end 84 51) (width 0.25) (layer B.Cu) (net 2))
-  (via (at 84 91) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 107.025 69.5) (end 107 69.525) (width 1) (layer B.Cu) (net 2) (tstamp 5A4244A1))
   (segment (start 97.25 65) (end 97.25 63.875) (width 1) (layer B.Cu) (net 3))
   (segment (start 97.25 63.875) (end 100 61.125) (width 1) (layer B.Cu) (net 3) (tstamp 5A4F722C))
