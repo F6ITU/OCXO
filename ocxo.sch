@@ -611,4 +611,6 @@ F 3 "" H 4550 2000 50  0001 C CNN
 $EndComp
 Connection ~ 4250 1850
 Connection ~ 4250 2150
+Text Notes 3250 1200 0    60   ~ 0
+LM4140 output voltage \nmust be\n4.096\n2.5\nor \n2.048V 
 $EndSCHEMATC
