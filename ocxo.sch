@@ -611,4 +611,8 @@ F 3 "" H 4550 2000 50  0001 C CNN
 $EndComp
 Connection ~ 4250 1850
 Connection ~ 4250 2150
+Text Notes 6750 1600 0    60   ~ 0
+l'ocxo devrait pouvoir être utilisé \ndans le gps-do de bg7tbl
+Text Notes 3300 1150 0    60   ~ 0
+LM4140 voltage output\n2.048\n2.5\nor \n4.096V \n
 $EndSCHEMATC
