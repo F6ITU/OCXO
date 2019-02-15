@@ -62,12 +62,7 @@ F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -84,12 +79,7 @@ F1 "Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -167,7 +157,7 @@ ENDDEF
 #
 # GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
@@ -203,7 +193,7 @@ ENDDEF
 DEF LM78M05_TO252 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
 F1 "LM78M05_TO252" 0 125 50 H V L CNN
-F2 "TO_SOT_Packages_THT:TO-252-2" 0 225 50 H I C CIN
+F2 "Package_TO_SOT_SMD:TO-252-2" 0 225 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 ALIAS MC78M05_TO252 KA78M05_TO252 LF15_TO252 LF18_TO252 LF25_TO252 LF33_TO252 LF50_TO252 LF60_TO252 LF80_TO252 LF85_TO252 LF120_TO252 LP2950-3.0_TO252 LP2950-3.3_TO252 LP2950-5.0_TO252 LF47_TO252 LF90_TO252
 $FPLIST
@@ -219,7 +209,7 @@ ENDDEF
 #
 # POT_TRIM
 #
-DEF POT_TRIM RV 0 40 N N 1 F N
+DEF POT_TRIM RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "POT_TRIM" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN

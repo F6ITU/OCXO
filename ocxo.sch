@@ -1,10 +1,10 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:regul
 LIBS:ene3311
 LIBS:lm4140
+LIBS:Connector_Generic
+LIBS:Device
+LIBS:power
+LIBS:Regulator_Linear
 LIBS:ocxo-cache
 EELAYER 25 0
 EELAYER END
@@ -447,7 +447,7 @@ Wire Wire Line
 	2100 1550 2050 1550
 Wire Wire Line
 	2450 1550 2400 1550
-Text Notes 4450 2550 0    60   ~ 0
+Text Notes 4500 2800 0    60   ~ 0
 850-9735\nVishay \nAccutrim \n1280G\n\n
 $Comp
 L CP1_Small C5
@@ -613,4 +613,8 @@ Connection ~ 4250 1850
 Connection ~ 4250 2150
 Text Notes 3250 1200 0    60   ~ 0
 LM4140 output voltage \nmust be\n4.096\n2.5\nor \n2.048V 
+Text Notes 7250 6900 0    60   ~ 0
+Aiôn\n (αἰών) \n 10 MHz ocxo\n
+Text Notes 8550 7050 0    60   ~ 0
+could be drived by a BG7TBL gps-do
 $EndSCHEMATC
