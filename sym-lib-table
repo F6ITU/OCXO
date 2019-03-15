@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ocxo-rescue)(type Legacy)(uri ${KIPRJMOD}/ocxo-rescue.lib)(options "")(descr ""))
+  (lib (name ene3311)(type Legacy)(uri C:/Users/Marco/Documents/Kicad/libraries/Oscillator/ene3311.lib)(options "")(descr ""))
+  (lib (name lm4140)(type Legacy)(uri C:/Users/Marco/Documents/Kicad/libraries/Regulateurs/lm4140.lib)(options "")(descr ""))
+)

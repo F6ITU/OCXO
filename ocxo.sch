@@ -1,12 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:regul
-LIBS:ene3311
-LIBS:lm4140
+EESchema Schematic File Version 4
 LIBS:ocxo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KA78M05_TO252 U1
+L ocxo-rescue:KA78M05_TO252 U1
 U 1 1 5A0B59D5
 P 2750 1550
 F 0 "U1" H 2600 1675 50  0000 C CNN
@@ -32,7 +26,7 @@ F 3 "" H 2750 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENE3311 Q1
+L ene3311:ENE3311 Q1
 U 1 1 5A0B5BA5
 P 4700 1400
 F 0 "Q1" H 4700 1750 60  0000 C CNN
@@ -43,7 +37,7 @@ F 3 "" H 4700 1400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LM4140 U2
+L lm4140:LM4140 U2
 U 1 1 5A0B5C08
 P 3900 1550
 F 0 "U2" H 3900 1750 60  0000 C CNN
@@ -54,7 +48,7 @@ F 3 "" H 3900 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L ocxo-rescue:C_Small C2
 U 1 1 5A0B5D01
 P 3050 1700
 F 0 "C2" H 3060 1770 50  0000 L CNN
@@ -65,7 +59,7 @@ F 3 "" H 3050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L ocxo-rescue:C_Small C3
 U 1 1 5A0B5D26
 P 3550 1700
 F 0 "C3" H 3560 1770 50  0000 L CNN
@@ -76,14 +70,14 @@ F 3 "" H 3550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 1550 3700 1550
+	3050 1550 3300 1550
 Wire Wire Line
 	3050 1550 3050 1600
 Wire Wire Line
-	3550 1200 3550 1600
+	3550 1200 3550 1550
 Connection ~ 3550 1550
 $Comp
-L C_Small C1
+L ocxo-rescue:C_Small C1
 U 1 1 5A0B5D91
 P 2450 1700
 F 0 "C1" H 2460 1770 50  0000 L CNN
@@ -94,9 +88,9 @@ F 3 "" H 2450 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 1500 2450 1600
+	2450 1500 2450 1550
 $Comp
-L GND #PWR01
+L ocxo-rescue:GND #PWR01
 U 1 1 5A0B5E73
 P 3750 3050
 F 0 "#PWR01" H 3750 2800 50  0001 C CNN
@@ -107,7 +101,7 @@ F 3 "" H 3750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L ocxo-rescue:PWR_FLAG #FLG02
 U 1 1 5A0B5E93
 P 3750 2900
 F 0 "#FLG02" H 3750 2975 50  0001 C CNN
@@ -118,7 +112,7 @@ F 3 "" H 3750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR03
+L ocxo-rescue:+12V #PWR03
 U 1 1 5A0B5EB3
 P 4200 3050
 F 0 "#PWR03" H 4200 2900 50  0001 C CNN
@@ -129,7 +123,7 @@ F 3 "" H 4200 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR04
+L ocxo-rescue:+12V #PWR04
 U 1 1 5A0B5F1F
 P 2450 1500
 F 0 "#PWR04" H 2450 1350 50  0001 C CNN
@@ -141,7 +135,7 @@ F 3 "" H 2450 1500 50  0001 C CNN
 $EndComp
 Connection ~ 2450 1550
 $Comp
-L GND #PWR05
+L ocxo-rescue:GND #PWR05
 U 1 1 5A0B5FE5
 P 3700 1900
 F 0 "#PWR05" H 3700 1650 50  0001 C CNN
@@ -152,7 +146,7 @@ F 3 "" H 3700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L ocxo-rescue:GND #PWR06
 U 1 1 5A0B6003
 P 2450 1900
 F 0 "#PWR06" H 2450 1650 50  0001 C CNN
@@ -163,7 +157,7 @@ F 3 "" H 2450 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L ocxo-rescue:GND #PWR07
 U 1 1 5A0B605B
 P 3050 1900
 F 0 "#PWR07" H 3050 1650 50  0001 C CNN
@@ -174,7 +168,7 @@ F 3 "" H 3050 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L ocxo-rescue:GND #PWR08
 U 1 1 5A0B6067
 P 3550 1900
 F 0 "#PWR08" H 3550 1650 50  0001 C CNN
@@ -185,7 +179,7 @@ F 3 "" H 3550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L ocxo-rescue:GND #PWR09
 U 1 1 5A0B6085
 P 3700 1400
 F 0 "#PWR09" H 3700 1150 50  0001 C CNN
@@ -196,7 +190,7 @@ F 3 "" H 3700 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR010
+L ocxo-rescue:GND #PWR010
 U 1 1 5A0B60BF
 P 4100 1400
 F 0 "#PWR010" H 4100 1150 50  0001 C CNN
@@ -207,7 +201,7 @@ F 3 "" H 4100 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR011
+L ocxo-rescue:GND #PWR011
 U 1 1 5A0B60CB
 P 4150 1550
 F 0 "#PWR011" H 4150 1300 50  0001 C CNN
@@ -232,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1800 3050 1900
 $Comp
-L GND #PWR012
+L ocxo-rescue:GND #PWR012
 U 1 1 5A0B617D
 P 2750 1900
 F 0 "#PWR012" H 2750 1650 50  0001 C CNN
@@ -249,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 1600 5300 1600
 $Comp
-L GND #PWR013
+L ocxo-rescue:GND #PWR013
 U 1 1 5A0B6281
 P 4500 1400
 F 0 "#PWR013" H 4500 1150 50  0001 C CNN
@@ -262,7 +256,7 @@ $EndComp
 Wire Wire Line
 	4550 1400 4500 1400
 $Comp
-L R_Small R1
+L ocxo-rescue:R_Small R1
 U 1 1 5A0B62ED
 P 4250 1700
 F 0 "R1" H 4280 1720 50  0000 L CNN
@@ -273,7 +267,7 @@ F 3 "" H 4250 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L ocxo-rescue:R_Small R2
 U 1 1 5A0B6431
 P 4250 2300
 F 0 "R2" H 4280 2320 50  0000 L CNN
@@ -284,7 +278,7 @@ F 3 "" H 4250 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_TRIM RV1
+L ocxo-rescue:POT_TRIM RV1
 U 1 1 5A0B6442
 P 4250 2000
 F 0 "RV1" V 4250 2000 50  0000 C CNN
@@ -302,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2150 4250 2200
 $Comp
-L GND #PWR014
+L ocxo-rescue:GND #PWR014
 U 1 1 5A0B65AA
 P 4250 2450
 F 0 "#PWR014" H 4250 2200 50  0001 C CNN
@@ -315,11 +309,9 @@ $EndComp
 Wire Wire Line
 	4250 2400 4250 2450
 Wire Wire Line
-	4400 2000 4700 2000
-Wire Wire Line
 	4700 2000 4700 1600
 $Comp
-L C_Small C4
+L ocxo-rescue:C_Small C4
 U 1 1 5A0B664E
 P 4800 2000
 F 0 "C4" V 4950 1950 50  0000 L CNN
@@ -330,7 +322,7 @@ F 3 "" H 4800 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR015
+L ocxo-rescue:GND #PWR015
 U 1 1 5A0B6654
 P 4950 2000
 F 0 "#PWR015" H 4950 1750 50  0001 C CNN
@@ -344,7 +336,7 @@ Wire Wire Line
 	4900 2000 4950 2000
 NoConn ~ 4950 1400
 $Comp
-L GND #PWR016
+L ocxo-rescue:GND #PWR016
 U 1 1 5A0B670A
 P 2200 1900
 F 0 "#PWR016" H 2200 1650 50  0001 C CNN
@@ -355,7 +347,7 @@ F 3 "" H 2200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L ocxo-rescue:GND #PWR017
 U 1 1 5A0B671A
 P 5450 1850
 F 0 "#PWR017" H 5450 1600 50  0001 C CNN
@@ -368,7 +360,7 @@ $EndComp
 Wire Wire Line
 	2200 1650 2050 1650
 $Comp
-L Conn_01x01 J2
+L ocxo-rescue:Conn_01x01 J2
 U 1 1 5A0B6837
 P 2950 2850
 F 0 "J2" H 2950 2950 50  0000 C CNN
@@ -379,7 +371,7 @@ F 3 "" H 2950 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR018
+L ocxo-rescue:GND #PWR018
 U 1 1 5A0B68EF
 P 2950 3100
 F 0 "#PWR018" H 2950 2850 50  0001 C CNN
@@ -392,7 +384,7 @@ $EndComp
 Wire Wire Line
 	2950 3050 2950 3100
 $Comp
-L PWR_FLAG #FLG019
+L ocxo-rescue:PWR_FLAG #FLG019
 U 1 1 5A0B69E5
 P 4200 2900
 F 0 "#FLG019" H 4200 2975 50  0001 C CNN
@@ -409,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1800 2450 1900
 $Comp
-L Conn_Coaxial J3
+L ocxo-rescue:Conn_Coaxial J3
 U 1 1 5A0B6BE9
 P 5450 1600
 F 0 "J3" H 5460 1720 50  0000 C CNN
@@ -422,7 +414,7 @@ $EndComp
 Wire Wire Line
 	5450 1800 5450 1850
 $Comp
-L Conn_01x02 J1
+L ocxo-rescue:Conn_01x02 J1
 U 1 1 5A0B6CF6
 P 1850 1650
 F 0 "J1" H 1850 1750 50  0000 C CNN
@@ -433,7 +425,7 @@ F 3 "" H 1850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D1
+L ocxo-rescue:D D1
 U 1 1 5A0B6D3B
 P 2250 1550
 F 0 "D1" H 2250 1650 50  0000 C CNN
@@ -450,7 +442,7 @@ Wire Wire Line
 Text Notes 4450 2550 0    60   ~ 0
 850-9735\nVishay \nAccutrim \n1280G\n\n
 $Comp
-L CP1_Small C5
+L ocxo-rescue:CP1_Small C5
 U 1 1 5A4114C5
 P 3300 1700
 F 0 "C5" H 3310 1770 50  0000 L CNN
@@ -461,7 +453,7 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L ocxo-rescue:GND #PWR020
 U 1 1 5A4115CB
 P 3300 1900
 F 0 "#PWR020" H 3300 1650 50  0001 C CNN
@@ -479,7 +471,7 @@ Wire Wire Line
 	3300 1600 3300 1550
 Connection ~ 3300 1550
 $Comp
-L GND #PWR021
+L ocxo-rescue:GND #PWR021
 U 1 1 5A412389
 P 5750 1850
 F 0 "#PWR021" H 5750 1600 50  0001 C CNN
@@ -490,7 +482,7 @@ F 3 "" H 5750 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_Coaxial J7
+L ocxo-rescue:Conn_Coaxial J7
 U 1 1 5A41238F
 P 5750 1600
 F 0 "J7" H 5760 1720 50  0000 C CNN
@@ -509,7 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1500 5300 1600
 $Comp
-L Conn_01x01 J6
+L ocxo-rescue:Conn_01x01 J6
 U 1 1 5A41248C
 P 2600 2850
 F 0 "J6" H 2600 2950 50  0000 C CNN
@@ -520,7 +512,7 @@ F 3 "" H 2600 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR022
+L ocxo-rescue:GND #PWR022
 U 1 1 5A412492
 P 2600 3100
 F 0 "#PWR022" H 2600 2850 50  0001 C CNN
@@ -533,7 +525,7 @@ $EndComp
 Wire Wire Line
 	2600 3050 2600 3100
 $Comp
-L Conn_01x01 J5
+L ocxo-rescue:Conn_01x01 J5
 U 1 1 5A412515
 P 2350 2850
 F 0 "J5" H 2350 2950 50  0000 C CNN
@@ -544,7 +536,7 @@ F 3 "" H 2350 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR023
+L ocxo-rescue:GND #PWR023
 U 1 1 5A41251B
 P 2350 3100
 F 0 "#PWR023" H 2350 2850 50  0001 C CNN
@@ -557,7 +549,7 @@ $EndComp
 Wire Wire Line
 	2350 3050 2350 3100
 $Comp
-L Conn_01x01 J4
+L ocxo-rescue:Conn_01x01 J4
 U 1 1 5A412522
 P 2000 2850
 F 0 "J4" H 2000 2950 50  0000 C CNN
@@ -568,7 +560,7 @@ F 3 "" H 2000 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR024
+L ocxo-rescue:GND #PWR024
 U 1 1 5A412528
 P 2000 3100
 F 0 "#PWR024" H 2000 2850 50  0001 C CNN
@@ -581,7 +573,7 @@ $EndComp
 Wire Wire Line
 	2000 3050 2000 3100
 $Comp
-L POT_TRIM RV2
+L ocxo-rescue:POT_TRIM RV2
 U 1 1 5A425F65
 P 4050 2000
 F 0 "RV2" V 4050 2000 50  0000 C CNN
@@ -592,14 +584,11 @@ F 3 "" H 4050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 1850 4550 1850
+	4050 1850 4250 1850
 Wire Wire Line
-	4050 2150 4550 2150
-Wire Wire Line
-	4200 2000 4450 2000
-Connection ~ 4450 2000
+	4050 2150 4250 2150
 $Comp
-L POT_TRIM RV3
+L ocxo-rescue:POT_TRIM RV3
 U 1 1 5A426460
 P 4550 2000
 F 0 "RV3" V 4550 2000 50  0000 C CNN
@@ -615,4 +604,18 @@ Text Notes 6750 1600 0    60   ~ 0
 l'ocxo devrait pouvoir être utilisé \ndans le gps-do de bg7tbl
 Text Notes 3300 1150 0    60   ~ 0
 LM4140 voltage output\n2.048\n2.5\nor \n4.096V \n
+Wire Wire Line
+	3550 1550 3700 1550
+Wire Wire Line
+	3550 1550 3550 1600
+Wire Wire Line
+	2450 1550 2450 1600
+Wire Wire Line
+	3300 1550 3550 1550
+Wire Wire Line
+	4250 1850 4550 1850
+Wire Wire Line
+	4250 2150 4550 2150
+Wire Wire Line
+	4200 2000 4700 2000
 $EndSCHEMATC

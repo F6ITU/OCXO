@@ -1,4 +1,4 @@
-update=14/03/2019 08:49:25
+update=14/11/2017 11:49:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,3 +28,10 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=device
+LibName3=conn
+LibName4=regul
+LibName5=C:/Users/Marco/Documents/Kicad/libraries/Oscillator/ene3311
+LibName6=C:/Users/Marco/Documents/Kicad/libraries/Regulateurs/lm4140
